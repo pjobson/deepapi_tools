@@ -1,5 +1,5 @@
 {
-  "name": "deepapi_superresolution",
+  "name": "deepapi_tools",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,11 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "superres": "./index.js"
+    "colorize": "./index.js",
+    "deepdream": "./index.js",
+    "similarity": "./index.js",
+    "superres": "./index.js",
+    "waifu2x": "./index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +23,7 @@
     "minimist": "^1.2.5",
     "path": "^0.12.7",
     "process": "^0.11.10",
+    "readline-sync": "^1.4.10",
     "uuid": "^8.0.0"
   },
   "postinstall": "npm link"
